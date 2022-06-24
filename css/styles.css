@@ -40,9 +40,7 @@ header{
     font-weight: 900;
     transition: all 2s linear;
 }
-.navbar-brand:hover{
-    transform: translate(1rem);
-}
+
 .navbar .bi{
     font-size: 2rem;
     color: rgb(234, 235, 226);
@@ -91,7 +89,7 @@ header{
 
 
 #showcase .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: swing 2s ease-in-out infinite alternate-reverse both;
 }
 
 /* main image */
@@ -102,35 +100,27 @@ header{
 }
 
 /* animate pic */
-@-webkit-keyframes up-down {
+@-webkit-keyframes swing {
   0% {
-    transform: translateY(10px);
+    transform: translateY(0.5rem);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-0.5rem);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(0.5rem);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-0.5rem);
   }
 }
 
 
 
  /* about section */
-
- #about .about-pic{
-     max-width: 50%;
-     height: auto;
-     display: block;
-     border-radius: 50%;
-     margin: 0;
- }
  
  /* profile links */
 
